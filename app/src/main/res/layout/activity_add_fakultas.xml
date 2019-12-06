@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".add_fakultas">
+
+
+    <TextView
+            android:id="@+id/tvKode"
+            android:text="@string/kode_fakultas_"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/txtKodeFakultas"
+            android:layout_width="180dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/tvKode"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tvNama"
+            android:text="@string/nama_fakultas"
+            android:layout_below="@+id/tvKode"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/txtNamaFakultas"
+            android:layout_width="180dp"
+            android:layout_marginStart="10dp"
+            android:layout_below="@+id/tvKode"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@id/tvKode"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/btnInput"
+            android:text="@string/input_"
+            android:layout_marginStart="10dp"
+            android:layout_below="@+id/tvNama"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">crud_5170411131</string>
+    <string name="kode_fakultas_">Kode Fakultas</string>
+    <string name="input_">input</string>
+    <string name="fakultas_item">Fakultas</string>
+    <string name="kode_fakultas_item">kode fakultas</string>
+    <string name="id_item">id</string>
+    <string name="nama_fakultas">Nama fakultas</string>
+</resources>
